@@ -277,7 +277,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: #2a2a2a;
+  background-color: #C9EFC6;
 }
 
 .header.sticked {
@@ -349,7 +349,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(4, 36, 14, 0.6);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -386,7 +386,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: rgb(9, 66, 39);
   }
 
   .navbar .dropdown ul {
@@ -1335,7 +1335,7 @@ section {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: #ffc107;
+    background-color: #cf4217;
   }
 }
 
@@ -1343,7 +1343,7 @@ section {
   padding: 20px 30px;
   position: relative;
   overflow: hidden;
-  background: #dedada;
+  background: #C9EFC6;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1938,7 +1938,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #2a2a2a;
+  background-color: #cf4217;
   padding: 50px 0;
   color: white;
 }
