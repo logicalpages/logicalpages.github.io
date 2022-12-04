@@ -930,9 +930,10 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -1335,7 +1336,7 @@ section {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: #cf4217;
+    background-color: #eee8e6;
   }
 }
 
@@ -1343,7 +1344,7 @@ section {
   padding: 20px 30px;
   position: relative;
   overflow: hidden;
-  background: #C9EFC6;
+  background: #b10b1b;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1360,7 +1361,7 @@ section {
 }
 
 .hero .icon-box .title a {
-  color: #f85a40;
+  color: #fff;
   transition: 0.3s;
 }
 
@@ -1375,7 +1376,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #222222;
+  background: #b10b1b;
 }
 
 .hero .icon-box:hover .title a,
@@ -1938,7 +1939,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #cf4217;
+  background-color: #b10b1b;
   padding: 50px 0;
   color: white;
 }
