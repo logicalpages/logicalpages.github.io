@@ -907,14 +907,10 @@ section {
  */
  .services{
   padding-left: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+
  }
- .services .service-box {
-  width: 50%;
-  min-height: 200px;
+ .service-box {
+  min-width: 400px;
   box-sizing: content-box;
   padding: 30px;
   margin: 30px 10px;
@@ -922,8 +918,7 @@ section {
   position: relative;
   background: rgb(252, 249, 249);
   border-radius: 10px;
-  display: flex;
- 
+
 }
 /*--------------------------------------------------------------
 # Testimonials Section
