@@ -902,8 +902,29 @@ section {
     opacity: 0;
   }
 }
-
-
+/* 
+# Service Section
+ */
+ .services{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .services .service-box {
+  width: 50%;
+  min-height: 200px;
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 30px 10px;
+  box-shadow: 0px 0 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  background: rgb(252, 249, 249);
+  border-radius: 10px;
+  display: flex;
+ 
+}
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -916,6 +937,7 @@ section {
   background: rgb(222, 220, 220);
 }
 .testimonials .testimonial-item {
+  min-height: 200px;
   box-sizing: content-box;
   padding: 30px;
   margin: 30px 10px;
